@@ -17,7 +17,7 @@ function helloWorld(lang) {
         return "გამარჯობა, სამყარო";
     } else if (lang == "en") {
         return "Hello, world"
-    } else if (lang === undefined) {
+    } else {
         return "Hello, World"
     }
 }
